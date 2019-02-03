@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col text-right py-3 px-5">
+    <span>Welcome Priya! &nbsp;&nbsp;| &nbsp;&nbsp;</span>
+    <span><a routerLink="/" class="" role="">Logoff</a></span>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col text-center">
+    <h1>User Dashboard to manage expenses and view reports</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col p-5">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#manage-expenses">Manage Expenses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#view-reports">Reports</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="manage-expenses" class="container tab-pane active"><br>
+        <priya-manage-expenses></priya-manage-expenses>
+      </div>
+
+      <div id="view-reports" class="container tab-pane fade"><br>
+        <priya-reports></priya-reports>
+      </div>
+    </div>
+  </div>
+</div>
